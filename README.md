@@ -1,10 +1,6 @@
 # Frama-C Learning
 
-<center>
-
-![Flutter logo](/images/framac.gif "Flutter logo")
-
-</center>
+<div style="text-align:center" alt="Flutter logo"><img src="images/framac.gif" /></div>
 
 ## Tutorials how to use Frama-C for software verification
 
@@ -26,6 +22,8 @@ Aiming the next steps to try the Frama-C, I'll adopt a Docker container. To buil
 foo@bar:~$ docker build -t hbgit/framac --no-cache -f Dockerfile .
 foo@bar:~$ docker run -it --name=framac -v $(pwd):/home/framac/devel_tool:Z --user $(id -u):$(id -g) hbgit/framac /bin/bash
 ```
+
+**NOTE:** You should run the second command inside from your clone of this repository.
 
 
 

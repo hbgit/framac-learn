@@ -1,3 +1,4 @@
+//frama-c -eva -eva-printer-domain code_examples/first.c
 int S=0;
 int T[5];
 int main(void)

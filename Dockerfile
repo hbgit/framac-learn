@@ -53,6 +53,7 @@ RUN opam init
 RUN opam install depext
 RUN opam depext frama-c
 RUN opam install frama-c
+RUN eval `opam config env`
 
 
 RUN sudo chown -R framac:framac .
